@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+h1 {
+    margin: 0;
+}
+
+.notes--list,
+.navbar,
+.note,
+.card--header {
+    display: flex;
+}
+
+.navbar {
+    justify-content: center;
+    background-color: #F55A5A;
+    color: white;
+    gap: 10px;
+}
+
+.navbar--title {
+    font-weight: 500;
+}
+
+.notes--list {
+    margin-top: 55px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note {
+    gap: 20px;
+    max-width: 510px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F5F5F5;
+    margin-bottom: 18px;
+}
+
+.image--container-image {
+    border-radius: 5px;
+}
+
+.card--header {
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 10.24px;
+}
+
+.card--header p {
+    letter-spacing: 0.17em;
+}
+
+.card--header-location {
+    color: #918E9B;
+}
+
+.card--main-title {
+    margin-bottom: 15px;
+}
+
+.card--main-date {
+    margin-bottom: 10px;
+}
+
+.card--main-date p {
+    font-size: 10.24px;
+    font-weight: 700;
+}
+
+.card--main-desc {
+    max-width: 325px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
